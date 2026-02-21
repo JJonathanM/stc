@@ -1,1 +1,123 @@
-<h1>Hola Mundo</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografía - Jaime Jonathan Mendoza Monarrez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #121212; color: #e0e0e0; padding-top: 70px; }
+        .bg-dark-custom { background-color: #1e1e1e; }
+        .text-accent { color: #00ffcc; }
+        section { padding: 60px 0; border-bottom: 1px solid #333; }
+        a { color: #00ffcc; text-decoration: none; }
+        a:hover { color: #00b38f; }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100" tabindex="0">
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-accent" href="#">Proyecto PGP</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#presentacion">Presentación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#academica">Académica</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#crypto">Criptografía</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="presentacion" class="text-center">
+        <div class="container">
+            <img src="img/foto.jpeg" alt="Foto" class="rounded-circle mb-3 border border-3 border-info" width="200" height="200">
+            <h1 class="text-accent">Jaime Jonathan Mendoza Monarrez</h1>
+            <p class="lead">Estudiante de Ingeniería en Sistemas Computacionales de la Escuela Superior de Computo</p>
+            
+            <div class="mt-4">
+                <p><strong>Correo electrónico:</strong> jmendozam1802@alumno.ipn.mx</p>
+                <a href="https://github.com/JJonathanM" class="btn btn-outline-info me-2" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/jaime-jonathan-mendoza-mon%C3%A1rrez-406748296/" class="btn btn-outline-info" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/jjonathanmm17/" class="btn btn-outline-info" target="_blank">Instagram</a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="academica" class="bg-dark-custom">
+        <div class="container text-center">
+            <h2 class="text-accent mb-4">Formación Académica</h2>
+            <p class="fs-5">Instituto Politécnico Nacional (IPN)</p>
+            <p class="fs-5">Escuela Superior de Cómputo (ESCOM)</p>
+            <p>Ingeniería en Sistemas Computacionales</p>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <div class="container">
+            <h2 class="text-accent text-center mb-5">Hobbies y Actividades Extracurriculares</h2>
+            
+            <div class="row mb-5">
+                <div class="col-md-4 text-center mb-4">
+                    <img src="foto_cocteleria.jpg" class="img-fluid rounded mb-3 border border-info" alt="Coctelería">
+                    <h5 class="text-accent">Coctelería</h5>
+                    <p>Experimentando, mezclando sabores y preparando nuevas bebidas.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <img src="foto_guitarra.jpg" class="img-fluid rounded mb-3 border border-info" alt="Guitarra">
+                    <h5 class="text-accent">Música</h5>
+                    <p>Practicando riffs y sacando covers en la guitarra.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <img src="foto_gaming.jpg" class="img-fluid rounded mb-3 border border-info" alt="Gaming">
+                    <h5 class="text-accent">Gaming & 3D</h5>
+                    <p>Repartiendo democracia o trabajando en modelado 3D.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h5 class="text-center text-accent mb-3">TÍTULO DE TU PRIMER COVER AQUÍ</h5>
+                    <div class="ratio ratio-16x9">
+                        <iframe src="LINK_YOUTUBE_COVER_1" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h5 class="text-center text-accent mb-3">TÍTULO DE TU SEGUNDO COVER AQUÍ</h5>
+                    <div class="ratio ratio-16x9">
+                        <iframe src="LINK_YOUTUBE_COVER_2" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="crypto" class="bg-dark-custom">
+        <div class="container">
+            <h2 class="text-accent text-center mb-4">Criptografía y PGP</h2>
+            
+            <div class="mb-5">
+                <h4>Acerca de la Criptografía</h4>
+                <p>Aquí puedes poner un párrafo corto sobre la historia de PGP o la biografía de Phil Zimmermann, su creador.</p>
+            </div>
+
+            <div class="mb-5 text-center">
+                <h4>Explicación de PGP (Video)</h4>
+                <div class="ratio ratio-16x9 w-75 mx-auto">
+                    <iframe src="LINK_DE_YOUTUBE_EMBED_PGP" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <h4>Enlaces Importantes</h4>
+                <a href="./CV.pdf" class="btn btn-info mt-3 me-3" target="_blank" download>Descargar Mi CV (PDF)</a>
+                <a href="./public_key.txt" class="btn btn-outline-light mt-3" target="_blank">Mi Llave Pública (Próximamente ECDSA)</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
